@@ -1,0 +1,27 @@
+h1 {
+    font-family: sans-serif;
+}
+
+div {
+    margin: 50px;
+    height: 100px; 
+    width: 100px;
+    background-color: black;
+    display: inline-block;
+}
+
+body {
+    margin: 0;
+}
+
+#top-bar {
+    background-color: black;
+}
+
+#middle-bar {
+    background-color: red;
+}
+
+#bottom-bar {
+    background-color: #ffd700;
+}
