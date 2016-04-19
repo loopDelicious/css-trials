@@ -2,16 +2,33 @@ h1 {
     font-family: sans-serif;
 }
 
-div {
-    margin: 50px;
+.little-box {
+    /*to center it, divide the width of primary by the leftover space by 3*/
+    margin: 50px 0 50px 66px;
     height: 100px; 
     width: 100px;
     background-color: black;
     display: inline-block;
 }
 
+#primary-box {
+    background-color: red;
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+}
+
+
+#secondary-box {
+    background-color: blue;
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+}
+
 body {
     margin: 0;
+    
 }
 
 #top-bar {
