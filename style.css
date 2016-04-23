@@ -2,43 +2,115 @@ h1 {
     font-family: sans-serif;
 }
 
+p {
+    font-family: sans-serif;;
+    font-style: bold;
+    font-size: 40px;
+    margin: 10px;
+}
+
+/*div {
+    margin: 0;
+    height: 240px;
+    width: 350px;
+    background-color: #ff0000;
+}
+*/
+/*. is defining class*/
+
 .little-box {
-    /*to center it, divide the width of primary by the leftover space by 3*/
-    margin: 50px 0 50px 66px;
-    height: 100px; 
-    width: 100px;
     background-color: black;
+    height: 100px;
+    width: 100px;
+    margin: 50px 0 50px 50px;
     display: inline-block;
+}
+
+.large {
+    background-color: #555555;
+    width: 600px;
+    height: 100px;
+    margin: 10px;
+    position: relative;
+}
+
+.inner-even {
+    background-color: #cccccc;
+    width: 190px;
+    height: 90px;
+    margin: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.inner-top {
+    background-color: #cccccc;
+    width: 140px;
+    height: 60px;
+    margin: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.inner-bottom {
+    background-color: #cccccc;
+    width: 290px;
+    height: 50px;
+    margin: 5px;
+    display: inline-block;
+    vertical-align: bottom;
+    position: absolute;
+}
+
+.other {
+    height: 80px;
+}
+
+.left {
+    bottom: 0;
+    left: 0;
+}
+
+.right {
+    bottom: 0;
+    right: 0;
+    height: 90px;
 }
 
 #primary-box {
     background-color: red;
-    width: 400px;
+    width: 350px;
     height: 200px;
     display: inline-block;
 }
 
-
 #secondary-box {
     background-color: blue;
-    width: 400px;
+    width: 350px;
     height: 200px;
     display: inline-block;
 }
 
 body {
     margin: 0;
-    
 }
 
-#top-bar {
+/*# is defining id*/
+/*#top-bar {
     background-color: black;
+    width: 500px;
+    height: 100px;
+
 }
 
 #middle-bar {
     background-color: red;
+    width: 500px;
+    height: 100px;
 }
 
 #bottom-bar {
     background-color: #ffd700;
-}
+    width: 500px;
+    height: 100px;
+}*/
